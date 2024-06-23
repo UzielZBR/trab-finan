@@ -1,5 +1,9 @@
 @media (max-width: 800px) {
-    #what-it-is-p {
+    .content {
+        font: normal 14pt Arial;
+    }
+    
+    .paragraph {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -11,5 +15,9 @@
     }
     #what-it-is-p span {
         margin-top: 22px;
+    }
+
+    #what-is-selic-over-p img {
+        width: 100%;
     }
 }
