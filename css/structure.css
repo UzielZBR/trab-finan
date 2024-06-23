@@ -1,0 +1,32 @@
+body {
+    background-color: #1c1c1c;
+
+    font: normal 14pt Arial;
+
+    margin: 0;
+}
+
+.content {
+    width: 85vw;
+    height: 100vh;
+    margin: auto;
+    
+    background-color: #282828;
+}
+
+.copyright {
+    width: calc(7.5vw - 8px);
+    height: fit-content;
+    position: fixed;
+
+    right: 0;
+    bottom: 0;
+
+    padding: 4px;
+
+    user-select: none;
+
+    font: normal 12pt Arial;
+
+    background-color: #222222;
+}
