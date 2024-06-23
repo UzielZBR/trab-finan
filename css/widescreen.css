@@ -1,0 +1,53 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-content: flex-start;
+    text-align: justify;
+
+    font: normal 16pt Arial;
+
+    color: #e8e8e8;
+}
+
+.title-div {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#title-h1 {
+    font: bold 44pt Arial;
+
+    margin: auto;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    align-items: center;
+
+    column-gap: 25px;
+
+    margin: 18px 0 190px 8px;
+}
+.paragraph span {
+    margin-bottom: 13px;
+}
+
+#what-it-is-p img {
+    border-radius: 32%;
+    box-shadow: 0 0 5px 16px white;
+}
+
+#what-is-selic-over-p img {
+    width: 44vw;
+
+    border-radius: 20%;
+    box-shadow: 0 0 5px 16px #faf1e7;
+}
