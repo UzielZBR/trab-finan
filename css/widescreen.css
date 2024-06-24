@@ -31,10 +31,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-
-    font: bold 36pt Arial;
 }
 .subtitle-h2 {
+    font: bold 36pt Arial;
+    margin: auto;
+}
+.subtitle-h3 {
+    font: bold 28pt Arial;
     margin: auto;
 }
 
@@ -70,4 +73,18 @@
 
     background-color: #b8b8b8;
     box-shadow: 0 0 5px 16px #b8b8b8;
+}
+
+#inflation-p {
+    flex-wrap: nowrap;
+}
+.inflation-images-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.inflation-images-wrapper img {
+    width: 36vw;
+
+    box-shadow: 0 0 5px 16px #ffffff;
 }
