@@ -18,10 +18,23 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-}
-#title-h1 {
-    font: bold 44pt Arial;
 
+    font: bold 44pt Arial;
+}
+.title-h1 {
+    margin: auto;
+}
+.subtitle-div {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    font: bold 36pt Arial;
+}
+.subtitle-h2 {
     margin: auto;
 }
 
@@ -50,4 +63,11 @@
 
     border-radius: 20%;
     box-shadow: 0 0 5px 16px #faf1e7;
+}
+
+#what-is-selic-meta-p img {
+    width: 22vw;
+
+    background-color: #b8b8b8;
+    box-shadow: 0 0 5px 16px #b8b8b8;
 }

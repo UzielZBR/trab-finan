@@ -2,22 +2,4 @@
     .content {
         font: normal 14pt Arial;
     }
-    
-    .paragraph {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    #what-it-is-p img {
-        border-radius: 32%;
-        box-shadow: 0 0 5px 16px white;
-        margin: auto;
-    }
-    #what-it-is-p span {
-        margin-top: 22px;
-    }
-
-    #what-is-selic-over-p img {
-        width: 100%;
-    }
 }
