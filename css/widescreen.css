@@ -146,3 +146,11 @@ a:any-link {
     width: 40vw;
     margin: auto;
 }
+
+.inflation-bar img {
+    width: 40vw;
+    height: auto;
+
+    margin: auto;
+    margin-bottom: 12px;
+}
